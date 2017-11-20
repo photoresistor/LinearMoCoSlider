@@ -39,6 +39,8 @@ unsigned long currentTime;
 
 void setup() {  
   Serial.begin(115200);
+  
+  delay(500);
 
   Serial.println("OLED FeatherWing test");
   // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
